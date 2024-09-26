@@ -1,8 +1,41 @@
-# React + Vite
+# To-Do Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple To-Do application built using **React** and **Tailwind CSS**. This app allows users to add, delete, and manage their daily tasks efficiently.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Add Tasks**: Users can add tasks to their to-do list.
+- **Delete Tasks**: Remove completed or unwanted tasks from the list.
+- **Mark Complete**: Ability to mark tasks as complete or incomplete.
+- **Responsive Design**: The app is fully responsive and works across devices with Tailwind CSS for styling.
+
+## Tech Stack
+
+- **React**: Frontend JavaScript library for building user interfaces.
+- **Tailwind CSS**: A utility-first CSS framework for styling.
+- **JavaScript**: Logic implementation.
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/todo-app.git
+
+# TailWind CSS SetUp
+If you'd like to make changes to the styling, make sure to include Tailwind CSS in your setup. Tailwind CSS is already configured with the following commands:
+```bash
+npm install -D tailwindcss
+npx tailwindcss init
+```
+Make sure to include your Tailwind directives in the src/index.css file:
+```bash
+@tailwind base
+@tailwind components
+@tailwind utilities
+```
+
+
+
+
