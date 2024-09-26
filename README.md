@@ -41,9 +41,9 @@ npx tailwindcss init
 ```
 Make sure to include your Tailwind directives in the src/index.css file:
 ```bash
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@tailwind base
+@tailwind components
+@tailwind utilities
 ```
 
 
